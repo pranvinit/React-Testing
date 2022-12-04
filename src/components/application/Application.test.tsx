@@ -65,5 +65,7 @@ describe("Application", () => {
 
     const sumbitBtnEl = screen.getByRole("button");
     expect(sumbitBtnEl).toBeInTheDocument();
+
+    expect(sumbitBtnEl).toBeDisabled();
   });
 });
